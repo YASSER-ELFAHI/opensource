@@ -222,7 +222,11 @@ export default function Home() {
 
       {/* Speakers Section */}
       <section id="speakers" className="py-32 md:py-40 bg-black relative overflow-hidden">
-        <div className="max-w-7xl mx-auto px-6">
+        <div className="absolute inset-0 w-full h-full opacity-50">
+          <ShaderAnimation />
+        </div>
+        <div className="absolute inset-0 bg-gradient-to-t from-black/90 via-black/20 to-black/90 pointer-events-none" />
+        <div className="relative z-10 max-w-7xl mx-auto px-6">
           <FadeIn className="text-center mb-6">
             <p className="text-sm font-semibold tracking-widest text-[#0071e3] uppercase mb-4">Confirmed Lineup</p>
             <h2 className="text-5xl md:text-7xl font-semibold tracking-tighter mb-4 text-white">Meet Our Expert Speakers</h2>
