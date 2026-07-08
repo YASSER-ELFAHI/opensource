@@ -43,7 +43,7 @@ export default function Home() {
       <nav className="w-full z-50 pt-6 pb-4 px-8 md:px-12 flex items-center justify-between bg-black/90 backdrop-blur-xl border-b border-white/[0.06]">
         {/* Left Links */}
         <div className="hidden md:flex items-center gap-8 text-sm font-medium text-neutral-400">
-          <a href="#about" className="hover:text-white transition-colors duration-200">About</a>
+          <a href="#about" className="hover:text-white transition-colors duration-200">yasser</a>
           <a href="#speakers" className="hover:text-white transition-colors duration-200">Speakers</a>
           <a href="#schedule" className="hover:text-white transition-colors duration-200">Schedule</a>
           <a href="#contests" className="hover:text-white transition-colors duration-200">Contests</a>
